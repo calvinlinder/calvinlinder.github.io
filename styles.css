@@ -58,4 +58,9 @@
     h2 > .redteam {
       text-shadow: .04em .04em green;
     }
-    img.redteam{float:right;}
+    img.redteam {
+      display: block;
+      box-shadow: 0em 0em 1em .5em red;
+      margin: 2em auto;
+      max-width: auto;
+    }
