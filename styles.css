@@ -1,0 +1,61 @@
+    body {
+      width: 80%;
+      margin: 0em auto;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Great Vibes", Helvetica, Arial, sans-serif;
+      /*text-transform: uppercase;*/
+      font-weight: normal;
+    }
+    h1 {
+      font-size: 5em;
+      text-align: center;
+    }
+    h2 {
+      font-size: 3em;
+    }
+    p {
+      color: black;
+      padding: .5em;
+      margin: .5em;
+    }
+    a {
+      color: red;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      color: white;
+      background-color: black;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    article {
+      border: 1px solid black;
+      box-shadow: .25em .25em .25em .25em black;
+      overflow: hidden;
+      width: 50%;
+      margin: 0em auto;
+    }
+    article p {
+
+    }
+    ol {
+      list-style-type: lower-greek;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .redteam {
+      color: red;
+      /*text-transform: uppercase;*/
+      font-variant-caps: small-caps;
+      font-weight: bold;
+    }
+    h1 > .redteam,
+    h2 > .redteam {
+      text-shadow: .04em .04em green;
+    }
+    img.redteam{float:right;}
